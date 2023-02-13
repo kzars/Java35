@@ -12,5 +12,7 @@ public class Variables {
         //Declaring and Initializing new variable in one line
         int age = 75;
         System.out.println("age = " + age);
+        age = 80;
+        System.out.println("age = " + age);
     }
 }
