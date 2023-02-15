@@ -1,3 +1,5 @@
+package basics;
+
 public class Operators {
     public static void main(String[] args) {
 
@@ -9,7 +11,7 @@ public class Operators {
         //Assignment operator =, -=, +=, *=, /=
         int a = 10;
         a = 20;
-        a *= 20;
+        a += 20;
         System.out.println(a);
 
         //INCREMENTATION OPERATORS & DECREMENTATION OPERATORS ++, --
