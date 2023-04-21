@@ -11,6 +11,7 @@ public class Users {
         String password = "1234";
         Scanner scanner = new Scanner(System.in);
         char again = 'y';
+        //Comment from second user
 
         try (Connection conn = DriverManager.getConnection(dbURL,username,password)){
 
